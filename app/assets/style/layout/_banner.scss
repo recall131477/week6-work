@@ -1,0 +1,10 @@
+.banner {
+  display: flex;
+  align-items: flex-end;
+  background-image: url(../images/bg-banner.jpg);
+  @include bg;
+  height: 480px;
+  @include mq(md) {
+    align-items: center;
+  }
+}
