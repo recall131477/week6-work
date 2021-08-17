@@ -1,10 +1,46 @@
----
-title: 首頁
-layout: ./app/layout.ejs
-engine: ejs
-current: index
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>
+    首頁
+  </title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/style/all.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="relative flex justify-end items-center">
+        <a href="index.html" class="header__logo text-primary text-xl">
+          EXHIBINECTION
+        </a>
+        <ul class="flex">
+          <li>
+            <a href="javascript:;" class="hidden items-center text-gray-400 h-20 | md:flex">Sign in</a>
+          </li>
+          <li>
+            <a href="javascript:;" class="hidden items-center text-gray-400 h-20 ml-4 | md:flex | lg:ml-8">Sign Up</a>
+          </li>
+          <li>
+            <a href="javascript:;" class="flex items-center h-20 ml-4 | lg:ml-8">
+              <span class="material-icons">confirmation_number</span>
+              <span
+                class="absolute top-5 -right-3.5 bg-secondary text-xs text-white flex justify-center items-center  rounded-full px-2">3</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="main">
+    
 <section>
   <div class="banner">
     <div class="wrapper">
@@ -160,3 +196,13 @@ current: index
 <section></section>
 
 <section></section>
+  </main>
+
+  <footer class="footer">
+
+  </footer>
+  <script src="./assets/js/vendors.js"></script>
+  <script src="./assets/js/all.js"></script>
+</body>
+
+</html>
