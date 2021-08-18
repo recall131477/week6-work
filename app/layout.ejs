@@ -9,6 +9,7 @@
     <%- title %>
   </title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
@@ -16,7 +17,8 @@
   <header class="header">
     <div class="wrapper">
       <div class="relative flex justify-end items-center">
-        <a href="index.html" class="header__logo text-primary text-xl">
+        <a href="index.html"
+          class="header__logo text-primary text-xl absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           EXHIBINECTION
         </a>
         <ul class="flex">
@@ -44,8 +46,21 @@
   </main>
 
   <footer class="footer">
-
+    <div class="wrapper">
+      <div class="flex justify-between items-center py-4 | md:py-7">
+        <div class="md:flex md:items-center">
+          <h4 class="text-lg | md:text-xl md:mr-4">EXHIBINECTION</h4>
+          <p>© 2020. All Rights Reserved.</p>
+        </div>
+        <div class="hidden | md:flex">
+          <a href="javascript:;" class="text-gray-400 mr-6">Sign in</a>
+          <a href="javascript:;" class="text-gray-400">Sign up</a>
+        </div>
+      </div>
+    </div>
   </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>

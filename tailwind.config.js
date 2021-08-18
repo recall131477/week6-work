@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         primary: '#630834',
         secondary: '#E31277',
+        purple: '#190014CC',
         white: '#ffffff',
         black: '#000000',
         gray: {
@@ -38,7 +39,8 @@ module.exports = {
         '3.5': '0.875rem',
         '4.5': '1.125rem',
         '7.5': '1.875rem',
-        '15': '3.75rem'
+        '15': '3.75rem',
+        '25': '6.25rem'
       },
     },
   },
