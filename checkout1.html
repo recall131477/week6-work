@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>
-    首頁
+    確認訂單
   </title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
@@ -44,169 +44,152 @@
   <main class="main">
     
 <section>
-  <div class="banner">
-    <div class="wrapper">
-      <div class="banner__main">
-        <h1 class="font-bold text-3xl text-white mb-2">台北當代藝術展</h1>
-        <span class="font-bold text-md text-white mb-4">01 JUN - 31 OCT</span>
-        <div class="flex mb-20 | md:mb-0">
-          <div class="w-1/2 | md:w-auto">
-            <a href="javascript:;" class="btn-large btn-secondary mr-2">購買票券</a>
-          </div>
-          <div class="w-1/2 | md:w-auto">
-            <a href="javascript:;" class="btn-large btn-outline-white">詳細資訊</a>
-          </div>
-        </div>
+  <div class="wrapper">
+    <div class="lg:w-2/3">
+      <div class="progress">
+        <ul class="progress__list">
+          <li class="w-1/4 relative flex justify-center is-active">
+            <p class="font-medium text-sm | md:text-base">確認訂單</p>
+          </li>
+          <li class="w-1/4 relative flex justify-center">
+            <p class="font-light text-sm | md:text-base">填寫訂購資訊</p>
+          </li>
+          <li class="w-1/4 relative flex justify-center">
+            <p class="font-light text-sm | md:text-base">填寫付款資訊</p>
+          </li>
+          <li class="w-1/4 relative flex justify-center">
+            <p class="font-light text-sm | md:text-base">完成訂購</p>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
-  <nav class="nav border border-gray-400 overflow-y-hidden mb-5 | md:mb-10 | lg:mb-15">
-    <ul class="flex overflow-x-auto whitespace-nowrap | md:justify-center">
-      <li><a href="javascript:;" class="block text-gray-400 text-center w-16.25 py-3.5 mr-4.5">音樂</a></li>
-      <li><a href="javascript:;" class="block text-gray-400 text-center w-16.25 py-3.5 mr-4.5">戲劇</a></li>
-      <li><a href="product.html" class="block text-gray-400 text-center w-16.25 py-3.5 mr-4.5">設計</a></li>
-      <li><a href="javascript:;" class="block text-gray-400 text-center w-16.25 py-3.5 mr-4.5">藝術</a></li>
-      <li><a href="javascript:;" class="block text-gray-400 text-center w-16.25 py-3.5 mr-4.5">美食</a></li>
-      <li><a href="javascript:;" class="block text-gray-400 text-center w-16.25 py-3.5 mr-4.5">旅遊</a></li>
-      <li><a href="javascript:;" class="block text-gray-400 text-center w-16.25 py-3.5 mr-4.5">電影</a></li>
-      <li><a href="javascript:;" class="block text-gray-400 text-center w-16.25 py-3.5 mr-4.5">親子</a></li>
-      <li><a href="javascript:;" class="block text-gray-400 text-center w-16.25 py-3.5">期間限定</a></li>
-    </ul>
-  </nav>
-</section>
-
-<section>
-  <div class="exhibition mb-6 | md:mb-10 | lg:mb-15">
-    <div class="wrapper wrapper--spacing">
-      <h2 class="font-bold text-3xl ml-4 mb-2 | md:ml-0 md:mb-4 | lg:mb-6">熱門特展</h2>
-      <ul>
-        <li class="bg-gray-100 px-4 py-6 mb-4 | md:flex md:p-0 md:mb-5">
-          <a href="javascript:;" class="overflow-hidden">
-            <img src="assets/images/exhibition-1.jpg" alt="展覽圖片" class="exhibition__media">
-          </a>
-          <div class="flex justify-between flex-1 | md:bg-gray-100 md:px-4 md:py-6 | lg:py-10">
-            <div class="exhibition__content">
-              <div>
-                <div class="flex justify-between items-center mb-1 | md:mb-0">
-                  <div class="flex items-center">
-                    <h3 class="font-bold text-md | lg:mb-1">2020 台味設計展</h3>
-                    <a href="javascript:;" class="lg:hidden">
-                      <img src="assets/images/icon-fb.svg" alt="fb圖片" class="w-5 h-5 ml-2.5">
-                    </a>
+    <div class="checkout-step checkout-step--screen">
+      <div class="lg:w-2/3 lg:mr-7.5">
+        <ul>
+          <li class="flex items-center mb-5">
+            <div class="w-full flex | md:w-1/2 md:mr-4 | lg:mr-7.5">
+              <div class="w-1/2 mr-4 | lg:mr-7.5">
+                <img src="assets/images/exhibition-1.jpg" alt="展覽圖片" class="w-full h-21 object-cover | md:w-40">
+              </div>
+              <div class="w-1/2">
+                <div class="flex flex-col justify-between h-full">
+                  <div>
+                    <div class="flex justify-between">
+                      <h3 class="font-bold">2020 台味設計展</h3>
+                      <a href="javascript:;" class="chagne remove remove--position | md:hidden"></a>
+                    </div>
+                    <h4 class="font-medium">01 JUN — 31 OCT</h4>
                   </div>
-                  <p class="font-medium | lg:hidden">01 JUN — 31 OCT</p>
-                </div>
-                <span class="text-md mb-2">$350</span>
-                <p class="font-medium mb-5 | md:text-md md:mb-0">
-                  一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。
-                </p>
-              </div>
-              <div class="flex">
-                <a href="javascript:;" class="btn-small btn-primary mr-2">購買票券</a>
-                <a href="javascript:;" class="btn-small btn-outline-primary">收藏展覽</a>
-              </div>
-            </div>
-            <div class="hidden | lg:flex lg:flex-col lg:justify-between">
-              <p class="font-bold text-md">01 <br> JUN <br> |<br> 31 <br> OCT</p>
-              <a href="javascript:;">
-                <img src="assets/images/icon-fb.svg" alt="fb圖片" class="w-6 h-6">
-              </a>
-            </div>
-          </div>
-        </li>
-        <li class="bg-gray-100 px-4 py-6 mb-4 | md:flex md:p-0 md:mb-5">
-          <a href="javascript:;" class="overflow-hidden">
-            <img src="assets/images/exhibition-2.jpg" alt="展覽圖片" class="exhibition__media">
-          </a>
-          <div class="flex justify-between flex-1 | md:bg-gray-100 md:px-4 md:py-6 | lg:py-10">
-            <div class="exhibition__content">
-              <div>
-                <div class="flex justify-between items-center mb-1 | md:mb-0">
-                  <div class="flex items-center">
-                    <h3 class="font-bold text-md | lg:mb-1">No.22 線上設計展</h3>
-                    <a href="javascript:;" class="lg:hidden">
-                      <img src="assets/images/icon-fb.svg" alt="fb圖片" class="w-5 h-5 ml-2.5">
-                    </a>
+                  <span class="hidden text-gray-400 | md:block">全票</span>
+                  <div class="flex justify-between items-center | md:hidden">
+                    <div>
+                      <span class="text-gray-400">全票</span>
+                      <span class="font-bold text-md">1</span>
+                    </div>
+                    <span class="font-bold text-md">NT$350</span>
                   </div>
-                  <p class="font-medium | lg:hidden">01 JUN — 31 OCT</p>
                 </div>
-                <span class="text-md mb-2">$350</span>
-                <p class="font-medium mb-5 | md:text-md md:mb-0">
-                  這是一個專屬於設計系畢業生的展覽，沒有華麗的名號、沒有浮誇的獎賞。讓我們用作品與理念，去碰撞真實世界裡的各種問題，創造更多美好的人事物。讓這個地球、這個世界變成每一個人心目中的理想鄉。
-                </p>
-              </div>
-              <div class="flex">
-                <a href="javascript:;" class="btn-small btn-primary mr-2">購買票券</a>
-                <a href="javascript:;" class="btn-small btn-outline-primary">收藏展覽</a>
               </div>
             </div>
-            <div class="hidden | lg:flex lg:flex-col lg:justify-between">
-              <p class="font-bold text-md">01 <br> JUN <br> |<br> 31 <br> OCT</p>
-              <a href="javascript:;">
-                <img src="assets/images/icon-fb.svg" alt="fb圖片" class="w-6 h-6">
-              </a>
+            <div class="hidden w-1/2 | md:block">
+              <div class="flex items-center justify-between">
+                <span class="font-bold text-md">NT$350</span>
+                <div class="flex justify-center items-center">
+                  <a href="javascript:;" class="chagne reduce"></a>
+                  <span class="font-bold text-md mx-3">01</span>
+                  <a href="javascript:;" class="chagne add"></a>
+                </div>
+                <a href="javascript:;" class="chagne remove remove--position"></a>
+              </div>
             </div>
-          </div>
-        </li>
-        <li class="bg-gray-100 px-4 py-6 | md:flex md:p-0">
-          <a href="javascript:;" class="overflow-hidden">
-            <img src="assets/images/exhibition-3.jpg" alt="展覽圖片" class="exhibition__media">
-          </a>
-          <div class="flex justify-between | md:flex-1 md:bg-gray-100 md:px-4 md:py-6 | lg:py-10">
-            <div class="exhibition__content">
-              <div>
-                <div class="flex justify-between items-center mb-1 | md:mb-0">
-                  <div class="flex items-center">
-                    <h3 class="font-bold text-md | lg:mb-1">高雄設計節</h3>
-                    <a href="javascript:;" class="lg:hidden">
-                      <img src="assets/images/icon-fb.svg" alt="fb圖片" class="w-5 h-5 ml-2.5">
-                    </a>
+          </li>
+          <li class="flex items-center mb-5">
+            <div class="w-full flex | md:w-1/2 md:mr-4 | lg:mr-7.5">
+              <div class="w-1/2 mr-4 | lg:mr-7.5">
+                <img src="assets/images/exhibition-2.jpg" alt="展覽圖片" class="w-full h-21 object-cover | md:w-40">
+              </div>
+              <div class="w-1/2">
+                <div class="flex flex-col justify-between h-full">
+                  <div>
+                    <div class="flex justify-between">
+                      <h3 class="font-bold">No.22 線上設計展</h3>
+                      <a href="javascript:;" class="chagne remove remove--position | md:hidden"></a>
+                    </div>
+                    <h4 class="font-medium">01 JUN — 31 OCT</h4>
                   </div>
-                  <p class="font-medium | lg:hidden">01 JUN — 31 OCT</p>
+                  <span class="hidden text-gray-400 | md:block">全票</span>
+                  <div class="flex justify-between items-center | md:hidden">
+                    <div>
+                      <span class="text-gray-400">全票</span>
+                      <span class="font-bold text-md">1</span>
+                    </div>
+                    <span class="font-bold text-md">NT$350</span>
+                  </div>
                 </div>
-                <span class="text-md mb-2">$350</span>
-                <p class="font-medium mb-5 | md:text-md md:mb-0">
-                  設計大高雄究竟是怎麼一回事？在這「設計」詞彙有點氾濫的年代，或許我們也搞不清楚究竟誰被誰設計了，設計生活？還是被生活設計？而當高雄這座城市建設硬體已相當程度完備時，文化軟實力又該如何輸出？
-                </p>
-              </div>
-              <div class="flex">
-                <a href="javascript:;" class="btn-small btn-primary mr-2">購買票券</a>
-                <a href="javascript:;" class="btn-small btn-outline-primary">收藏展覽</a>
               </div>
             </div>
-            <div class="hidden | lg:flex lg:flex-col lg:justify-between">
-              <p class="font-bold text-md">01 <br> JUN <br> |<br> 31 <br> OCT</p>
-              <a href="javascript:;">
-                <img src="assets/images/icon-fb.svg" alt="fb圖片" class="w-6 h-6">
-              </a>
+            <div class="hidden w-1/2 | md:block">
+              <div class="flex items-center justify-between">
+                <span class="font-bold text-md">NT$350</span>
+                <div class="flex justify-center items-center">
+                  <a href="javascript:;" class="chagne reduce"></a>
+                  <span class="font-bold text-md mx-3">01</span>
+                  <a href="javascript:;" class="chagne add"></a>
+                </div>
+                <a href="javascript:;" class="chagne remove remove--position"></a>
+              </div>
             </div>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="review mb-6 | md:mb-10 | lg:mb-15">
-    <div class="wrapper">
-      <h2 class="font-bold text-3xl mb-2 | md:mb-4 | lg:mb-6">直播回顧</h2>
-      <div class="review__main">
-        <div class="review__content">
-          <div class="flex mb-8">
-            <h3 class="font-bold text-2xl text-white border-r border-white pr-3">開幕對談</h3>
-            <h3 class="font-medium text-2xl text-white pl-3">藝術展演巡禮</h3>
-          </div>
-          <img src="assets/images/people.png" alt="人物圖片" class="mb-3">
-          <h4 class="text-md text-white mb-2">臺北現代聯合總監｜Ken Hsu</h4>
-          <p class="text-white mb-4 | md:text-md">獨家由藝術家、策展人、畫廊總監帶您欣賞台北藝術特展，感受雕塑、展演及當代日常文化之間微妙的關係。</p>
-          <a href="javascript:;" class="btn-middle btn-secondary">點此觀看 </a>
+          </li>
+          <li class="flex items-center mb-5">
+            <div class="w-full flex | md:w-1/2 md:mr-4 | lg:mr-7.5">
+              <div class="w-1/2 mr-4 | lg:mr-7.5">
+                <img src="assets/images/exhibition-3.jpg" alt="展覽圖片" class="w-full h-21 object-cover | md:w-40">
+              </div>
+              <div class="w-1/2">
+                <div class="flex flex-col justify-between h-full">
+                  <div>
+                    <div class="flex justify-between">
+                      <h3 class="font-bold">高雄設計節</h3>
+                      <a href="javascript:;" class="chagne remove remove--position | md:hidden"></a>
+                    </div>
+                    <h4 class="font-medium">01 JUN — 31 OCT</h4>
+                  </div>
+                  <span class="hidden text-gray-400 | md:block">全票</span>
+                  <div class="flex justify-between items-center | md:hidden">
+                    <div>
+                      <span class="text-gray-400">全票</span>
+                      <span class="font-bold text-md">1</span>
+                    </div>
+                    <span class="font-bold text-md">NT$350</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hidden w-1/2 | md:block">
+              <div class="flex items-center justify-between">
+                <span class="font-bold text-md">NT$350</span>
+                <div class="flex justify-center items-center">
+                  <a href="javascript:;" class="chagne reduce"></a>
+                  <span class="font-bold text-md mx-3">01</span>
+                  <a href="javascript:;" class="chagne add"></a>
+                </div>
+                <a href="javascript:;" class="chagne remove remove--position"></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="lg:w-1/3 mt-auto">
+        <div class="flex justify-between mb-3.5">
+          <span class="font-medium text-md">小計</span>
+          <span class="font-medium text-md">NT$1050</span>
         </div>
+        <a href="checkout2.html" class="btn-xxl btn-secondary">下一步</a>
       </div>
     </div>
   </div>
 </section>
-      <section class="block">
+      <section class="hidden">
         <div class="card mb-6 | md:mb-10 | lg:mb-15">
           <div class="wrapper">
             <h2 class="font-bold text-3xl mb-2 | md:mb-4 | lg:mb-6">猜你也喜歡...</h2>
@@ -235,7 +218,7 @@
         </div>
       </section>
 
-      <section class="block">
+      <section class="hidden">
         <div class="subscribe">
           <div class="wrapper h-full">
             <div class="flex flex-col justify-end h-full pb-9">
@@ -329,7 +312,7 @@
       </section>
   </main>
 
-  <footer class="footer block">
+  <footer class="footer hidden">
     <div class="wrapper">
       <div class="flex justify-between items-center py-4 | md:py-7">
         <div class="md:flex md:items-center">
