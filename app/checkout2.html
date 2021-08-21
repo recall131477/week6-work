@@ -1,0 +1,196 @@
+---
+title: 訂購資訊
+layout: ./app/layout.ejs
+engine: ejs
+current: checkout2
+display: hidden
+---
+
+<section>
+  <div class="wrapper">
+    <div class="lg:w-2/3">
+      <div class="progress">
+        <ul class="progress__list">
+          <li class="w-1/4 relative flex justify-center is-active">
+            <p class="font-medium text-sm | md:text-base">確認訂單</p>
+          </li>
+          <li class="w-1/4 relative flex justify-center is-active">
+            <p class="font-light text-sm | md:text-base">填寫訂購資訊</p>
+          </li>
+          <li class="w-1/4 relative flex justify-center">
+            <p class="font-light text-sm | md:text-base">填寫付款資訊</p>
+          </li>
+          <li class="w-1/4 relative flex justify-center">
+            <p class="font-light text-sm | md:text-base">完成訂購</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="checkout-step checkout-step--screen checkout-step--direction">
+      <div class="flex justify-between | md:hidden">
+        <div class="w-1/2">
+          <a href="checkout1.html" class="btn-xxl btn-outline-primary mr-2">返回</a>
+        </div>
+        <div class="w-1/2">
+          <a href="checkout3.html" class="btn-xxl btn-secondary ml-2">下一步</a>
+        </div>
+      </div>
+      <div class="mb-8 | lg:w-2/3 lg:mr-7.5 lg:mb-0">
+        <div class="flex flex-col justify-between h-full">
+          <ul>
+            <li class="flex items-center mb-5">
+              <div class="w-full flex | md:w-1/2 md:mr-4 | lg:mr-7.5">
+                <div class="w-1/2 mr-4 | lg:mr-7.5">
+                  <img src="assets/images/exhibition-1.jpg" alt="展覽圖片" class="w-full h-21 object-cover | md:w-40">
+                </div>
+                <div class="w-1/2">
+                  <div class="flex flex-col justify-between h-full">
+                    <div>
+                      <h3 class="font-bold">2020 台味設計展</h3>
+                      <h4 class="font-medium">01 JUN — 31 OCT</h4>
+                    </div>
+                    <span class="hidden text-gray-400 | md:block">全票</span>
+                    <div class="flex justify-between items-center | md:hidden">
+                      <div>
+                        <span class="text-gray-400">全票</span>
+                        <span class="font-bold text-md">1</span>
+                      </div>
+                      <span class="font-bold text-md">NT$350</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden w-1/2 | md:block">
+                <div class="flex items-center justify-between">
+                  <span class="font-bold text-md">NT$350</span>
+                  <div class="flex justify-center items-center">
+                    <a href="javascript:;" class="chagne reduce"></a>
+                    <span class="font-bold text-md mx-3">01</span>
+                    <a href="javascript:;" class="chagne add"></a>
+                  </div>
+                  <a href="javascript:;" class="chagne remove remove--position"></a>
+                </div>
+              </div>
+            </li>
+            <li class="flex items-center mb-5">
+              <div class="w-full flex | md:w-1/2 md:mr-4 | lg:mr-7.5">
+                <div class="w-1/2 mr-4 | lg:mr-7.5">
+                  <img src="assets/images/exhibition-2.jpg" alt="展覽圖片" class="w-full h-21 object-cover | md:w-40">
+                </div>
+                <div class="w-1/2">
+                  <div class="flex flex-col justify-between h-full">
+                    <div>
+                      <h3 class="font-bold">No.22 線上設計展</h3>
+                      <h4 class="font-medium">01 JUN — 31 OCT</h4>
+                    </div>
+                    <span class="hidden text-gray-400 | md:block">全票</span>
+                    <div class="flex justify-between items-center | md:hidden">
+                      <div>
+                        <span class="text-gray-400">全票</span>
+                        <span class="font-bold text-md">1</span>
+                      </div>
+                      <span class="font-bold text-md">NT$350</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden w-1/2 | md:block">
+                <div class="flex items-center justify-between">
+                  <span class="font-bold text-md">NT$350</span>
+                  <div class="flex justify-center items-center">
+                    <a href="javascript:;" class="chagne reduce"></a>
+                    <span class="font-bold text-md mx-3">01</span>
+                    <a href="javascript:;" class="chagne add"></a>
+                  </div>
+                  <a href="javascript:;" class="chagne remove remove--position"></a>
+                </div>
+              </div>
+            </li>
+            <li class="flex items-center mb-5">
+              <div class="w-full flex | md:w-1/2 md:mr-4 | lg:mr-7.5">
+                <div class="w-1/2 mr-4 | lg:mr-7.5">
+                  <img src="assets/images/exhibition-3.jpg" alt="展覽圖片" class="w-full h-21 object-cover | md:w-40">
+                </div>
+                <div class="w-1/2">
+                  <div class="flex flex-col justify-between h-full">
+                    <div>
+                      <h3 class="font-bold">高雄設計節</h3>
+                      <h4 class="font-medium">01 JUN — 31 OCT</h4>
+                    </div>
+                    <span class="hidden text-gray-400 | md:block">全票</span>
+                    <div class="flex justify-between items-center | md:hidden">
+                      <div>
+                        <span class="text-gray-400">全票</span>
+                        <span class="font-bold text-md">1</span>
+                      </div>
+                      <span class="font-bold text-md">NT$350</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hidden w-1/2 | md:block">
+                <div class="flex items-center justify-between">
+                  <span class="font-bold text-md">NT$350</span>
+                  <div class="flex justify-center items-center">
+                    <a href="javascript:;" class="chagne reduce"></a>
+                    <span class="font-bold text-md mx-3">01</span>
+                    <a href="javascript:;" class="chagne add"></a>
+                  </div>
+                  <a href="javascript:;" class="chagne remove remove--position"></a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="hidden | md:block">
+            <a href="checkout1.html" class="btn-xxl btn-outline-primary | lg:w-40">返回</a>
+          </div>
+        </div>
+      </div>
+      <div class="lg:w-1/3">
+        <div class="flex flex-col justify-between h-full">
+          <div class="mb-12 | lg:mb-0">
+            <h2 class="font-medium text-md mb-4 | md:mb-5">訂購人資訊</h2>
+            <form>
+              <div class="mb-5">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" placeholder="example@gmail.com" class="form-control">
+              </div>
+              <div class="mb-5">
+                <label for="name" class="form-label">姓名</label>
+                <input type="text" id="name" placeholder="請輸入姓名" class="form-control">
+              </div>
+              <div class="mb-5">
+                <label for="tel" class="form-label">聯絡電話</label>
+                <input type="tet" id="tel" placeholder="請輸入電話" class="form-control">
+              </div>
+              <div class="mb-1">
+                <label for="coupon" class="form-label">優惠碼</label>
+                <input type="text" id="coupon" placeholder="TG87526" class="form-control">
+              </div>
+              <span class="block text-sm text-primary text-right">優惠碼已生效</span>
+            </form>
+          </div>
+          <div class="mb-6 | md:mb-0">
+            <ul>
+              <li class="flex justify-between mb-1.5">
+                <span class="font-medium">小計</span>
+                <span class="font-light">NT$1050</span>
+              </li>
+              <li class="flex justify-between mb-1.5">
+                <span class="font-medium">折扣</span>
+                <span class="font-light">-NT$50</span>
+              </li>
+              <li class="flex justify-between md:mb-3">
+                <span class="font-medium text-md">總金額</span>
+                <span class="font-medium text-md">NT$1050</span>
+              </li>
+            </ul>
+            <div class="hidden | md:block">
+              <a href="checkout3.html" class="btn-xxl btn-secondary">下一步</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

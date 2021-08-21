@@ -13,12 +13,17 @@
 
 // component
 @import 'component/button';
+@import 'component/modal';
+@import 'component/scrollbar';
+@import 'component/progress';
+@import 'component/form';
 
 // layout
 @import 'layout/wrapper';
 @import 'layout/banner';
 @import 'layout/nav';
-@import 'layout/footer';
 
 // pages
 @import 'page/home';
+@import 'page/detail';
+@import 'page/checkout';

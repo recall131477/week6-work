@@ -1,0 +1,13 @@
+.detail__ticket {
+  display: flex;
+  a {
+    display: block;
+    padding: 0 .625rem;
+    &:hover {
+      border-bottom: 1px solid #E31277;
+    }
+    &.is-active {
+      border-bottom: 1px solid #E31277;
+    }
+  }
+}

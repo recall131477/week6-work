@@ -1,0 +1,26 @@
+.checkout-step {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 2.5rem;
+  @include mq(lg) {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+
+.checkout-step--screen {
+  height: calc(100vh - 145px);
+  @include mq(md) {
+    height: calc(100vh - 168px);
+  }
+}
+
+.checkout-step--direction {
+  @include mq($until:md) {
+  flex-direction: column-reverse;
+  }
+  @include mq($until:lg) {
+    height: auto;
+  }
+}

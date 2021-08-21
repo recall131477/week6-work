@@ -23,11 +23,20 @@
   transition: background-color .3s;
 }
 
-.btn-xl-large {
+.btn-xl {
   display: inline-block;
   padding: .75rem 3.25rem;
   color: #fff;
   transition: background-color .3s;
+}
+
+.btn-xxl {
+  display: block;
+  text-align: center;
+  padding: .625rem 0;
+  border-radius: 4px;
+  transition: all .3s;
+  color: #fff;
 }
 
 .btn-secondary {
@@ -59,6 +68,88 @@
   color: #630834;
   &:hover {
     border: 1px solid #630834;
+    background-color: #630834;
+    color: #fff;
+  }
+}
+
+.chagne {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  transition: box-shadow .3s ease;
+  &:hover {
+    box-shadow: 0 0 5px 2px rgba(140, 140, 140, 0.64);
+  }
+}
+
+.reduce {
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 16px;
+    height: 2px;
+    background-color: #000;
+  }
+}
+
+.add {
+  &::before,&::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 16px;
+    height: 2px;
+    background-color: #000;
+  }
+  &::after {
+    transform: translate(-50%,-50%) rotate(90deg);
+  }
+}
+
+.remove {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  &::before,&::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 16px;
+    height: 2px;
+    background-color: #000;
+  }
+  &::before {
+    transform: translate(-50%,-50%) rotate(45deg);
+  }
+  &::after {
+    transform: translate(-50%,-50%) rotate(-45deg);
+  }
+}
+
+.remove--position {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.checkout {
+  display: block;
+  padding: .625rem 1.6875rem;
+  border: 1px solid #630834;
+  background-color: #fff;
+  color: #630834;
+  border-radius: 4px;
+  transition: background-color .3s , color .3s;
+  &:hover {
     background-color: #630834;
     color: #fff;
   }
