@@ -1,4 +1,9 @@
 (function ($) {
+  const goAos = () => {
+    AOS.init({
+      once: true
+    });
+  };
   const goSwiper = () => {
     const cardSwiper = new Swiper('.card .swiper-container', {
       loop: true,
@@ -27,6 +32,7 @@
   };
 
   $(function () {
+    goAos();
     goSwiper();
     goModal();
   });
