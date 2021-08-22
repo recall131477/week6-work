@@ -1,6 +1,12 @@
 "use strict";
 
 (function ($) {
+  var goAos = function goAos() {
+    AOS.init({
+      once: true
+    });
+  };
+
   var goSwiper = function goSwiper() {
     var cardSwiper = new Swiper('.card .swiper-container', {
       loop: true,
@@ -31,6 +37,7 @@
   };
 
   $(function () {
+    goAos();
     goSwiper();
     goModal();
   });
